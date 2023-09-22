@@ -85,7 +85,28 @@ hr {
     color: #000000;
     height: 1px;
 }
-
-
+footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: small;
+  gap: 20px;
+  padding-top: 100px;
+    width: 100%;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+footer {
+    margin-top: 60px;
+  
+    background-color:white;
+    text-align: justify;
+} 
+.footer_hr{
+   
+}
 
    
