@@ -1,0 +1,221 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body{
+    font-family: sans-serif;
+}
+
+.main_container{
+    display: flex;
+  
+}
+
+.signin_logo_div{
+    height: 100vh;
+    width: 70vh;
+    background-color: #00277f ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+  margin-top: 0px;
+   
+}
+
+.signin_logo{
+   height: 100px;
+   width: 100px; 
+}
+.sigin_heading{
+color: azure;
+font-family: sans-serif;
+font-weight: bold;
+}
+.signin_description{
+color: azure;
+text-align: center;
+}
+.signin_section2{
+    width: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sighin_form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.signin_input{
+height: 40px;
+width: 400px;
+border-radius: 5px;
+border-color:#D8D9DA;
+border-width: thin;
+}
+.signin_input:hover{
+    border:solid #068FFF;
+}
+.signin_button{
+    height: 40px;
+    width: 400px;
+    color: aliceblue;
+    background-color:#6610f2 ;
+    border-radius: 5px;
+    border:solid #6610f2;
+
+}
+.signin_button:hover{
+    background-color:#068FFF ;
+    border:solid #068FFF;
+}
+.already_accout{
+    text-decoration: none;
+    color: #00277f;
+}
+
+
+@media (max-width:768px) {
+    .signin_logo_div{
+        height: 300px;
+        width: 100%;
+        background-color: #00277f ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+      margin-top: 0px;
+       
+    }
+    .main_container{
+        display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .signin_logo{
+        height: 60px;
+        width: 60px; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .sigin_heading{
+        font-size: 20px;
+        color: azure;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+        }
+        .signin_description{
+            font-size: 10px;
+        color: azure;
+        text-align: center;
+        
+        }
+
+        .signin_input{
+            height: 35px;
+            width: 350px;
+            border-radius: 5px;
+            border-color:#D8D9DA;
+            border-width: thin;
+            display: flex;
+                justify-content: center;
+                align-items: center;
+            
+            }
+            .sighin_form{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .signin_button{
+                height: 35px;
+                width: 350px;
+                color: aliceblue;
+                background-color:#6610f2 ;
+                border-radius: 5px;
+                border:solid #6610f2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+            }
+}
+@media (max-width:576px) {
+
+    .main_container{
+        width: 635px;
+    }
+    .signin_logo_div{
+        height: 300px;
+        width: 100%;
+        background-color: #00277f ;
+        display: flex;
+       align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4px;
+      margin-top: 0px;
+}
+.signin_logo{
+    height: 60px;
+    width: 60px; 
+   
+ }
+ .sigin_heading{
+    font-size: 20px;
+    color: azure;
+    font-family: 'monteserrat';
+    font-weight: bold;
+    display: flex;
+
+    
+    }
+    .signin_description{
+        font-size: 10px;
+    color: azure;
+    text-align: center;
+   
+    }
+    .main_container{
+        display: flex;
+      flex-direction: column;
+      gap: 150px;
+    }
+
+    .sighin_form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .lady_image{
+        background-image: url(./image_elements/sahal.jpg);
+        background-size: cover;
+        height:660px ;
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: 70px;
+        margin-top: 80px;
+        position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      width: 300px; /* Set the width of the div */
+      height: 300px; /* Set the height of the div */
+    }
+}
